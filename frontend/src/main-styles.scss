@@ -1,0 +1,60 @@
+// global styles and changed variable values
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+$turquoise: rgb(102, 53, 53);
+$green: white;
+$light-green: #404744;
+$light: #d6eee1;
+$dark-green: #d6eee1;
+
+//update bulmas global var
+$family-sans-serif: "Roboto",sans-serif;
+$primary: $green; 
+$link: $light-green;
+
+//udate bulma's component values
+
+$control-border-width: 2px;
+$input-border-color: transparent;
+$input-shadow: none; 
+
+//global styles
+html{
+    background: linear-gradient(to right top, $turquoise, $green );
+}
+html, body{
+    height: 100%;
+}
+
+.centered-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;        //center its children in the midle
+    width: 100%;
+    height: 100%;
+}
+.modal-box{
+    min-height: 200px;
+    width: 100%;
+    max-width: 580px;
+    background: white;
+    border-radius: 5px;
+    padding: 35px;
+}
+
+.button.is-info {
+    background: green;
+}
+
+.button{
+    margin-top: 20px;
+}
+
+.title{
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 2px;  
+}
+
+.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+    background-color:#37d3b5;
+  }
